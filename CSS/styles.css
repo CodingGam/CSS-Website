@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  margin: 0;
+  background-color: #b2fcff;
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  margin-top: 60px auto 0 auto;
+
+  font-family: 'Sacramento', cursive;
+  color: #3e64ff;
+  line-height: 2;
+  font-size: 687.5% /*16px is 100% so 110px; is 687.5%. When changing browser default font size percentages will scale, pixels won't*/
+/*em - how many times bigger than font 16px. Can compound with em in the <body>. REM - doesn't compound with others*/
+}
+
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #3e64ff;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  right: 70%;
+  bottom: 40%;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 72%;
+  padding-top: 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+padding-top: 90px;
+}
+
+.skills {
+    background-color: #b2fcff;
+    padding: 50px 0 50px 0;
+}
+
+.bottom-container {
+    background-color: #b2fcff;
+
+}
+
+.profile-pic {
+  border-radius: 100%;
+}
+
+.computer {
+  border-radius:100%;
+  text-align: center;
+  width: 25%;
+  float: left;
+  margin: auto 5% 5% auto;
+}
+
+.porridge {
+
+  border-radius:100%;
+  text-align: center;
+  width: 25%;
+  float: right;
+  margin-left: 5%;
+    margin: auto auto 5% 5%;
+}
+
+.programmer {
+  font-weight: normal;
+  padding-bottom: 40px;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 7px;
+  width: 7%;
+}
+
+.line-break {
+  padding: 50px;
+}
+
+.contact-me {
+
+}
+
+.skill-row {
+  display: inline-block;
+  /*to center the div you can also use margin left and right AUTO*/
+  width: 50%;
+  text-align: left;
+}
+
+.profile {
+  display: inline-block;
+  width: 50%;
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
+  padding: 40px;
+}
+
+/*
+.code-skill-text {
+  clear:left;
+}
+
+.porridge-skill-text {
+  clear: right;
+}
+*/
+/*********************CENTERING ELEMENTS********************/
+/*text-align: center; - works with elements that don't have a set width*/
+/*margin: 0 auto 0 auto; OR margin: 0 auto; works with everything*/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
